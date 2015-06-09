@@ -25,6 +25,7 @@ $(document).ready(function() {
 	$(".ninja2").change(function() {
 		var ninja2 = $(this).val();
 		$("#ninja2").css("background-image", "url("+ninja2+")");
+		$("#player").hide();
 	});
 	
 });
