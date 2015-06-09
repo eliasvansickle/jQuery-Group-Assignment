@@ -87,8 +87,22 @@ blockquote, q {
 		display: inline;
 	}
 	#ninja1 {
-		background-color: green;
+		/*background-color: green;*/
 		background-size: cover;
+		position: absolute;
+		left: 320px;
+		width:200px;
+		height: 200px;
+
+	}
+		#ninja2 {
+		/*background-color: green;*/
+		background-size: cover;
+		position: absolute;
+		right: 320px;
+		width:200px;
+		height: 200px;
+
 	}
 
 
