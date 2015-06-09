@@ -90,8 +90,9 @@ blockquote, q {
 		/*background-color: green;*/
 		background-size: cover;
 		position: absolute;
-		left: 320px;
-		width:200px;
+		left: 250px;
+		top:140px;
+		width:140px;
 		height: 200px;
 
 	}
@@ -99,8 +100,9 @@ blockquote, q {
 		/*background-color: green;*/
 		background-size: cover;
 		position: absolute;
-		right: 320px;
-		width:200px;
+		right: 250px;
+		top:140px;
+		width:140px;
 		height: 200px;
 
 	}
