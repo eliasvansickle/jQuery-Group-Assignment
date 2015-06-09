@@ -7,7 +7,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	outline: 1px dotted red;
+	/*outline: 1px dotted red;*/
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -52,7 +52,7 @@ blockquote, q {
 }
 	#selection {
 		opacity: .8;
-		background-color: red;
+		background-color: #808080;
 		position:absolute;
 		left: 43%;
 		top: 23%;
@@ -61,6 +61,8 @@ blockquote, q {
 		border-radius: 20px; 
 	}
 	#selection p {
+		color: gold;
+		font-size: 30px;
 		font-weight: bolder;
 		text-align: center;
 		margin-bottom: 20px;
@@ -70,7 +72,7 @@ blockquote, q {
 	}
 	#player {
 		opacity: .8;
-		background-color: red;
+		background-color: #808080;
 		position:absolute;
 		left: 43%;
 		top: 23%;
@@ -83,9 +85,9 @@ blockquote, q {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	select {
+/*	select {
 		display: inline;
-	}
+	}*/
 	#ninja1 {
 		/*background-color: green;*/
 		background-size: cover;
