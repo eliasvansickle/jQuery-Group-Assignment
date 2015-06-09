@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$("#player").hide();
 	var click = false
 	$("button").hover(function(){
 		var reveal = $(this).attr("data-alt-src");
@@ -15,6 +16,6 @@ $(document).ready(function() {
 		var choice = $(this).attr("data-alt-src");
 		$("#wrapper").css("background-image", "url("+choice+")");
 		$("#selection").hide();
+		$("#player").show();
 	});
-	
 });
