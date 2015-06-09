@@ -47,8 +47,8 @@ blockquote, q {
 	background-size: cover;
 	background-color: black;
 	margin: 0 auto;
-	width: 970px;
-	min-height: 500px;
+	width: 100%;
+	min-height: 970px;
 }
 	#selection {
 		opacity: .8;
@@ -85,11 +85,7 @@ blockquote, q {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-/*	select {
-		display: inline;
-	}*/
 	#ninja1 {
-		/*background-color: green;*/
 		background-size: cover;
 		position: absolute;
 		left: 250px;
@@ -99,7 +95,6 @@ blockquote, q {
 
 	}
 		#ninja2 {
-		/*background-color: green;*/
 		background-size: cover;
 		position: absolute;
 		right: 250px;
