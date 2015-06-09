@@ -18,9 +18,13 @@ $(document).ready(function() {
 		$("#selection").hide();
 		$("#player").show();
 	});
-
-	$("option").val(function() {
-		var ninja = $(this).attr("data-alt-src");
-		$("#wrapper").css("background-image", "url("+ninja+")")
+	$(".ninja1").change(function() {
+		var ninja1 = $(this).val();
+		$("#ninja1").css("background-image", "url("+ninja1+")");
 	});
+	$(".ninja2").change(function() {
+		var ninja2 = $(this).val();
+		$("#ninja2").css("background-image", "url("+ninja2+")");
+	});
+	
 });
