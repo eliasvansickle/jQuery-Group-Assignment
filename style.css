@@ -68,6 +68,16 @@ blockquote, q {
 	div.top, div.bottom {
 		text-align: center;
 	}
+	#player {
+		opacity: .5;
+		background-color: red;
+		position:absolute;
+		left: 43%;
+		top: 23%;
+		width: 190px;
+		height: 100px;
+		border-radius: 20px; 
+	}
 
 
 
