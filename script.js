@@ -18,4 +18,9 @@ $(document).ready(function() {
 		$("#selection").hide();
 		$("#player").show();
 	});
+
+	$("option").val(function() {
+		var ninja = $(this).attr("data-alt-src");
+		$("#wrapper").css("background-image", "url("+ninja+")")
+	});
 });
